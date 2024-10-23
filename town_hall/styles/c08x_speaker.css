@@ -106,7 +106,7 @@ aside img {
     margin-bottom: 1.5em; 
 }
 #nav_list ul li { 
-    width: 23.5%; /* Converted to percentage (200px of 850px) */
+    width: 85%; /* Converted to percentage (200px of 850px) */
     margin-bottom: .5em; 
     border: 2px double black;
     border-radius: 10px;
