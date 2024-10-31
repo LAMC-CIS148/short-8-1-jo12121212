@@ -9,8 +9,8 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 98%; /* Updated to 98% of the browser window */
-    max-width: 850px; /* Keep the current maximum width */
+    width: 98%; 
+    max-width: 850px; 
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -36,7 +36,7 @@ header h3 {
 }
 header img {
     float: left;
-    padding: 0 3.5%; /* Keep padding in percentage */
+    padding: 0 3.5%; 
 }
 .shadow {
     text-shadow: 2px 2px 2px #800000;
@@ -49,53 +49,53 @@ main {
 
 /* the styles for the section */
 section {
-    width: 67.5%; /* Converted to percentage */
+    width: 67.5%;
     float: right;
-    padding: 0 2.35% 2.35% 2.35%; /* Keep padding in percentage */
+    padding: 0 2.35% 2.35% 2.35%; 
 }
 section h1 {
     color: #800000;
     font-size: 150%;
-    padding-top: 0.5em; /* Retained em */
+    padding-top: 0.5em;
     margin: 0;
 }
 section p {
-    padding-bottom: 0.5em; /* Retained em */
+    padding-bottom: 0.5em; 
 }
 
 /* the styles for the article */
 article {
-    padding: 0.5em 0; /* Retained em */
+    padding: 0.5em 0; 
 }
 article h2 {
     font-size: 115%;
-    padding: 0 0 0.25em 0; /* Retained em */
+    padding: 0 0 0.25em 0; 
 }
 article img {
     float: right;
-    margin: 0.5em 0 1em 1em; /* Retained em */
+    margin: 0.5em 0 1em 1em; 
     border: 1px solid black;
-    width: 50%; /* Make image scalable to 50% of the article's width */
+    width: 50%; 
 }
 
 /* the styles for the aside */
 aside {
-    width: 25.3%; /* Converted to percentage */
+    width: 25.3%; 
     float: right;
-    padding: 0 0 2.35% 2.35%; /* Keep padding in percentage */
+    padding: 0 0 2.35% 2.35%; 
 }
 aside h2 {
     color: #800000;
     font-size: 130%;
-    padding: 0.6em 0 0.25em 0; /* Retained em */
+    padding: 0.6em 0 0.25em 0; 
 }
 
 aside h3 {
     font-size: 100%;
-    padding-bottom: 0.25em; /* Retained em */
+    padding-bottom: 0.25em; 
 }
 aside img {
-    padding-bottom: 1em; /* Retained em */
+    padding-bottom: 1em; 
 }
 
 /* the styles for the navigation list */
@@ -105,7 +105,7 @@ aside img {
     margin-bottom: 1.5em; 
 }
 #nav_list ul li { 
-    width: 85%; /* Converted to percentage */
+    width: 85%;
     margin-bottom: 0.5em; 
     border: 2px double black;
     border-radius: 10px;
@@ -116,7 +116,7 @@ aside img {
 }
 #nav_list ul li a {
     display: block;
-    padding: 0.5em 0 0.5em 0.5em; /* Retained em */
+    padding: 0.5em 0 0.5em 0.5em; 
     text-decoration: none;
     font-weight: bold;
     color: black;
