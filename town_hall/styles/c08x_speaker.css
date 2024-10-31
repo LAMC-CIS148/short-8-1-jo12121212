@@ -1,4 +1,3 @@
-
 /* the styles for the elements */
 * {
     margin: 0;
@@ -37,7 +36,7 @@ header h3 {
 }
 header img {
     float: left;
-    padding: 0 3.5%; /* Converted from pixels to percentage */
+    padding: 0 3.5%; /* Keep padding in percentage */
 }
 .shadow {
     text-shadow: 2px 2px 2px #800000;
@@ -50,53 +49,53 @@ main {
 
 /* the styles for the section */
 section {
-    width: 67.5%; /* Converted to percentage (575px of 850px) */
+    width: 67.5%; /* Converted to percentage */
     float: right;
-    padding: 0 2.35% 2.35% 2.35%; /* Converted padding to percentage */
+    padding: 0 2.35% 2.35% 2.35%; /* Keep padding in percentage */
 }
 section h1 {
     color: #800000;
     font-size: 150%;
-    padding-top: .5em; /* Retained em but could convert to px if needed */
+    padding-top: 0.5em; /* Retained em */
     margin: 0;
 }
 section p {
-    padding-bottom: .5em; /* Retained em but could convert to px if needed */
+    padding-bottom: 0.5em; /* Retained em */
 }
 
 /* the styles for the article */
 article {
-    padding: .5em 0; /* Retained em but could convert to px if needed */
+    padding: 0.5em 0; /* Retained em */
 }
 article h2 {
     font-size: 115%;
-    padding: 0 0 .25em 0; /* Retained em but could convert to px if needed */
+    padding: 0 0 0.25em 0; /* Retained em */
 }
 article img {
     float: right;
-    margin: .5em 0 1em 1em; /* Retained em but could convert to px if needed */
+    margin: 0.5em 0 1em 1em; /* Retained em */
     border: 1px solid black;
     width: 50%; /* Make image scalable to 50% of the article's width */
 }
 
 /* the styles for the aside */
 aside {
-    width: 25.3%; /* Converted to percentage (215px of 850px) */
+    width: 25.3%; /* Converted to percentage */
     float: right;
-    padding: 0 0 2.35% 2.35%; /* Converted padding to percentage */
+    padding: 0 0 2.35% 2.35%; /* Keep padding in percentage */
 }
 aside h2 {
     color: #800000;
     font-size: 130%;
-    padding: .6em 0 .25em 0; /* Retained em but could convert to px if needed */
+    padding: 0.6em 0 0.25em 0; /* Retained em */
 }
 
 aside h3 {
     font-size: 100%;
-    padding-bottom: .25em; /* Retained em but could convert to px if needed */
+    padding-bottom: 0.25em; /* Retained em */
 }
 aside img {
-    padding-bottom: 1em; /* Retained em but could convert to px if needed */
+    padding-bottom: 1em; /* Retained em */
 }
 
 /* the styles for the navigation list */
@@ -106,8 +105,8 @@ aside img {
     margin-bottom: 1.5em; 
 }
 #nav_list ul li { 
-    width: 85%; /* Converted to percentage (200px of 850px) */
-    margin-bottom: .5em; 
+    width: 85%; /* Converted to percentage */
+    margin-bottom: 0.5em; 
     border: 2px double black;
     border-radius: 10px;
     box-shadow: 3px 3px 0 0 #800000;
@@ -117,7 +116,7 @@ aside img {
 }
 #nav_list ul li a {
     display: block;
-    padding: .5em 0 .5em 0.5em; /* Retained em but could convert to px if needed */
+    padding: 0.5em 0 0.5em 0.5em; /* Retained em */
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -132,8 +131,7 @@ footer {
     clear: both;
 }
 footer p {
-         text-align: center;
-	color: white;
-	padding: 1em 0;
-
+    text-align: center;
+    color: white;
+    padding: 1em 0;
 }
